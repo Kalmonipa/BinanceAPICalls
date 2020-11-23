@@ -1,5 +1,9 @@
 from binance.client import Client
-from API import *
+from API_Calls.API import *
+
+# #
+# Gets my balance of the specified asset
+# #
 
 def GetBalance(asset):
     client = Client(apiKey, apiSecret)

@@ -1,5 +1,9 @@
 from binance.client import Client
-from API import *
+from API_Calls.API import *
+
+# #
+# Cancels the order that we specify
+# #
 
 def CancelOrder(symbol, orderId):
     client = Client(apiKey, apiSecret)

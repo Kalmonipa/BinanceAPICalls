@@ -1,5 +1,9 @@
 from binance.client import Client
-from API import *
+from API_Calls.API import *
+
+# #
+# Places an order limit for the price, quantity and symbol specified
+# #
 
 def OrderLimitBuy(price, quantity, symbol):
     client = Client(apiKey, apiSecret)

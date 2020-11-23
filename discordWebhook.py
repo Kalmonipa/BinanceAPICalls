@@ -1,6 +1,5 @@
 import requests
 import discord
-
 from discord import Webhook, RequestsWebhookAdapter
 
 def postDiscord(text):
