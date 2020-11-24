@@ -4,8 +4,8 @@ from binance.client import Client
 api_baseEndpoint = "https://api.binance.com"
 ws_baseEndpoint = "wss://stream.binance.com:9443"
 
-apiKey = 'AFATuuae51yUecDfRA2nZkYy5dlTNgXycucoWAYtpzXW0v1Gl3hUlhCu8mQO9eJN'
-apiSecret = 'HlgPZOxRAD6yaCHhSE3m5LRkR3XFYpxN4MUiYFtkSsuLe6X8irMo3dJobvajWjsl'
+apiKey = ''
+apiSecret = ''
 
 client = Client(apiKey, apiSecret)
 
